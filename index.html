@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body class="ii">
+    <div class="container">
+        <br>
+        <center><h1>Todo App</h1></center>
+        <br>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+        <input placeholder="Enter todo" class="form-control" type="text" id="todo-item">
+        </div>
+        <div class="col-md-4">
+        <button onclick="addTodo()" class="btn btn-success">ADD ITEM</button>
+        <button onclick="deleteAll()" class="btn btn-danger">DELETE ALL</button>
+    </div>
+
+    <div class="col-md-2"></div>
+        </div>
+
+        <br>
+        <br>
+        <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-6">
+    <div>
+        <!-- <ul id="list">
+
+        </ul> -->
+
+        <ul id="myList">
+        </ul>
+    </div>
+    </div>
+    <div class="col-md-4"></div>
+    </div>
+</div>
+
+    <script  src="app.js"></script>
+    <style>
+        button{
+            margin-left:10px;
+            margin-right:10px;
+        }
+
+        li{
+            list-style-type:none;
+        }
+        span{
+            font-size: 25px;
+        }
+        </style>
+</body>
+</html>
